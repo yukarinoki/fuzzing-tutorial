@@ -1,7 +1,4 @@
-image: ubuntu:16.04
-
-tasks:
-  - prebuild: ./setup.sh
+image: Dockerfile
 
 github:
   prebuilds:
