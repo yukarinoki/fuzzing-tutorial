@@ -1,0 +1,6 @@
+[submodule "FTS"] 
+  path = FTS
+  url = https://github.com/google/fuzzer-test-suite
+[submodule "fuzzing"] 
+  path = fuzzing
+  url = https://github.com/google/fuzzing
