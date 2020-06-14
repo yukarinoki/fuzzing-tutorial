@@ -1,1 +1,6 @@
 image: ubuntu:16.04
+tasks:
+  - prebuild: git clone https://github.com/google/fuzzing.git fuzzing
+    prebuild: git clone https://github.com/google/fuzzer-test-suite.git FTS
+    prebuild: ./fuzzing/tutorial/libFuzzer/install-deps.sh 
+    prebuild: ./fuzzing/tutorial/libFuzzer/install-clang.sh 
