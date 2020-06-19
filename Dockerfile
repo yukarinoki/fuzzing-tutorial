@@ -9,7 +9,4 @@ RUN git clone https://github.com/google/fuzzer-test-suite.git FTS
 RUN echo $PATH > echotest.txt
 RUN . ./fuzzing/tutorial/libFuzzer/install-deps.sh
 RUN . ./fuzzing/tutorial/libFuzzer/install-clang.sh
-# USER gitpot
-# RUN sh ./fuzzing/tutorial/libFuzzer/install-deps.sh
-# RUN sh ./fuzzing/tutorial/libFuzzer/install-clang.sh
 WORKDIR /workspace/init
